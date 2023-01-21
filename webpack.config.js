@@ -10,7 +10,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "output.js",
   },
-  //   all loades loader here
+  //   all loader loader here
   module: {
     rules: [
       {
@@ -25,5 +25,6 @@ module.exports = {
     static: path.join(__dirname, "dist"),
     compress: true,
     port: 3001,
+    hot:true
   },
 };
